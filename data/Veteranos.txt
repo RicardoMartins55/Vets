@@ -1,0 +1,149 @@
+Eduardo "Papo Seco" Santos,Pandeireta,Rúben "Poputo" Sirgado,data/Photos/Papo Seco/img1.jpg
+João "Manuel Rebelo" Santos,Pandeireta,Luís "Estique-la-Piçe" Martins,data/Photos/Manuel Rebelo/img1.jpg
+Ricardo "Capullo" Calvão,Contrabaixo,André "João Pequeno" Nunes,data/Photos/Capullo/img1.jpg
+André "Kantsú" Avelar,Cavaquinho,Pedro "Bocadélia" Vicente,data/Photos/Kantsú/img1.jpg
+Guilherme "Martelinhos" Guerreiro,Bandolim,António "Mazeltov" Gomes,data/Photos/Martelinhos/img1.jpg
+João "Ácaro" Marques,Bandolim,Mário "Lundois" Pedrosa,data/Photos/Ácaro/img1.jpg
+João "Roberto" Leal,Acordeão,João "Nesquik" Ramalho,data/Photos/Roberto/img1.jpg
+Miguel "Chinês" Mendes,Viola,Rúben "Poputo" Sirgado,data/Photos/Chinês/img1.jpg
+João "Garçom" Soares,Viola,Rúben "Poputo" Sirgado,data/Photos/Garçom/img1.jpg
+André "João Pequeno" Nunes,Contrabaixo,Manuel "Matola" Cardoso,data/Photos/João Pequeno/img1.jpg
+Vicente "Smiguel" Pinto,Viola,Bernardo "Guno" Reis,data/Photos/Smiguel/img1.jpg
+João "Nesquik" Ramalho,Acordeão,Rúben "Poputo" Sirgado,data/Photos/Nesquik/img1.jpg
+Rúben "Poputo" Sirgado,Flauta Transversal,João "Pastilhas" Sousa,data/Photos/Poputo/img1.jpg
+João "Gorila" Sousa,Percussão,João "Pastilhas" Sousa,data/Photos/Gorila/img1.jpg
+Diogo "Donachica" Oliveira,Bandolim,António "Mazeltov" Gomes,data/Photos/Donachica/img1.jpg
+Filipe "Pererê" Faria,Viola,André "Lemón" Ferreira,data/Photos/Pererê/img1.jpg
+Tomás "Brock" Oliveira,Cavaquinho,João "Pastilhas" Sousa,data/Photos/Brock/img1.jpg
+Gonçalo "Islamabad" Andrade,Contrabaixo,Miguel "Caroço" Carneiro,data/Photos/Islamabad/img1.jpg
+Francisco "Cafagestji" Santos,Violino,Miguel "Caroço" Carneiro,data/Photos/Cafagestji/img1.jpg
+João "Sicrano" Serra,Percussão,João "Camané" Inês,data/Photos/Sicrano/img1.jpg
+Mário "Lundois" Pedrosa,Pandeireta,João "Jacki" Velez,data/Photos/Lundois/img1.jpg
+João "Botijas" Ferreira,Acordeão,André "Lemón" Ferreira,data/Photos/Botijas/img1.jpg
+Bernardo "Guno" Reis,Viola,João "Jacki" Velez,data/Photos/Guno/img1.jpg
+Afonso "Fulano" Nunes,Percussão,André "Lemón" Ferreira,data/Photos/Fulano/img1.jpg
+Gonçalo "Jack Black" Santos,Viola,Pedro "Scaramanga" Chagas,data/Photos/Jack Black/img1.jpg
+António "Mazeltov" Gomes,Bandolim,Miguel "Caroço" Carneiro,data/Photos/Mazeltov/img1.jpg
+Pedro "Beltrano" Micaela,Percussão,Miguel "Caroço" Carneiro,data/Photos/Beltrano/img1.jpg
+António "Quasimodium" Cortez,Pandeireta,João "Jacki" Velez,data/Photos/Quasimodium/img1.jpg
+Alexandre "Ivete" Poeira,Cavaquinho,João "Jacki" Velez,data/Photos/Ivete/img1.jpg
+Pedro "Bocadélia" Vicente,Cavaquinho,João "Pastilhas" Sousa,data/Photos/Bocadélia/img1.jpg
+Sérgio "Osvaldinho" Brites,Viola,Hugo "Hugolina" Pires,data/Photos/Osvaldinho/img1.jpg
+João "Camané" Inês,Viola,João "Jacki" Velez,data/Photos/Camané/img1.jpg
+António "Futre" Andrade,Viola,Pedro "Scaramanga" Chagas,data/Photos/Futre/img1.jpg
+Nuno "Morde-mos" Jacinto,Viola,Pedro "Scaramanga" Chagas,data/Photos/Morde-mos/img1.jpg
+Miguel "Caroço" Carneiro,Bandolim,João "Jacki" Velez,data/Photos/Caroço/img1.jpg
+André "Lemón" Ferreira,Viola,Luís "Estique-la-Piçe" Martins,data/Photos/Lemón/img1.jpg
+Gonçalo "Cotovelos" Tiago,Acordeão,João "Jacki" Velez,data/Photos/Cotovelos/img1.jpg
+José "Natesta" Ribeiro,Viola,Bernardo "Chibo" Fazenda,data/Photos/Natesta/img1.jpg
+Carlos "Mickael" Carreira,Flauta Transversal,João "Jacki" Velez,data/Photos/Mickael/img1.jpg
+David "Torresmo" Franco,Percussão,David "Crápula" Dias,data/Photos/Torresmo/img1.jpg
+Tiago "Croquete" Fernandes,Pandeireta,João "Pastilhas" Sousa,data/Photos/Croquete/img1.jpg
+Rafael "Marisol" Caetano,Contrabaixo,João "Jacki" Velez,data/Photos/Marisol/img1.jpg
+Bernardo "Chibo" Fazenda,Bandolim,Miguel "Mijão" Silvestre,data/Photos/Chibo/img1.jpg
+Manuel "Matola" Cardoso,Viola,João "Estrumar" Marques,data/Photos/Matola/img1.jpg
+Miguel "Narso" Lourenço,Cavaquinho,João "Pastilhas" Sousa,data/Photos/Narso/img1.jpg
+Pedro "Jonas" Flores,Percussão,Bruno "Petit" Mendes,data/Photos/Jonas/img1.jpg
+José Pedro "Donaltim" Leite,Cavaquinho,David "Broxli" Baptista,data/Photos/Donaltim/img1.jpg
+Pedro "Scaramanga" Chagas,Viola,Michel "Manda-Chuva" Cânovas,data/Photos/Scaramanga/img1.jpg
+João "Jacki" Velez,Percussão,Pedro "Algália" Monteiro,data/Photos/Jacki/img1.jpg
+Juvenal "João" Araújo,Contrabaixo,Pedro "Algália" Monteiro,data/Photos/João/img1.jpg
+Luís "Estique-la-Piçe" Martins,Viola,Michel "Manda-Chuva" Cânovas,data/Photos/Estique-la-Piçe/img1.jpg
+André "Flori" Belo,Acordeão,Vasco "Véspera" da Câmara Pereira,data/Photos/Flori/img1.jpg
+Pedro "Messi" Caetano,Viola,Adelino "Sopas" Fernandes,data/Photos/Messi/img1.jpg
+Luís "Chocapic" Sanfins,Bandolim,Rui "Playmobil" Mestre,data/Photos/Chocapic/img1.jpg
+David "Crápula" Dias,Violino,Bruno "Magister" Almeida,data/Photos/Crápula/img1.jpg
+Tiago "Labrego" Serafim,Viola,Hugo "Hugolina" Pires,data/Photos/Labrego/img1.jpg
+João "OhBoi-Kwelo" Alves,Pandeireta,"Super Mário" Mário Fernandes,data/Photos/OhBoi-Kwelo/img1.jpg
+João "Pastilhas" Sousa,Cavaquinho,Hugo "Hugolina" Pires,data/Photos/Pastilhas/img1.jpg
+Tiago "Tony" Carreira,Flauta Transversal,Nuno "Trambolho" Marcos,data/Photos/Tony/img1.jpg
+Nuno "Gafanhoto" Pais,Pandeireta,Tiago "Burralheira" Antunes,data/Photos/Gafanhoto/img1.jpg
+José "Camolas" Gonçalves,Percussão,"Super Mário" Mário Fernandes,data/Photos/Camolas/img1.jpg
+Michel "Manda-Chuva" Cânovas,Viola,Hugo "Hugolina" Pires,data/Photos/Manda-Chuva/img1.jpg
+João "Lamb" Cordeiro,Acordeão,"Super Mário" Mário Fernandes,data/Photos/Lamb/img1.jpg
+Mário "Canixe" Frade,Cavaquinho,Manuel "Doutor" Ferreira,data/Photos/Canixe/img1.jpg
+João "Estrumar" Marques,Percussão,Miguel "Couratos" Afonso,data/Photos/Estrumar/img1.jpg
+Tiago "Seabrão" Nunes,Viola,Luís "Gosma" Coelho,data/Photos/Seabrão/img1.jpg
+Diogo "Vaselina" Pires Vicente,Viola,Adelino "Sopas" Fernandes,data/Photos/Vaselina/img1.jpg
+Jhonny "Ramón" Aldeia,Percussão,David "Broxli" Baptista,data/Photos/Ramón/img1.jpg
+Dionísio "Meireles" Sousa,Viola,Carlos "Macarena" Matrena,data/Photos/Meireles/img1.jpg
+Nuno "Trambolho" Marcos,Bandolim,David "Retornado" Fonseca,data/Photos/Trambolho/img1.jpg
+João "Pastel de Belém" Fernandes,Pandeireta,Márcio "Salsichonga" Nóbrega,data/Photos/Pastel de Belém/img1.jpg
+Adelino "Sopas" Fernandes,Acordeão,Andomarc "Anorak" Miranda,data/Photos/Sopas/img1.jpg
+João "Blica" Tavares,Contrabaixo,Ricardo "Cantiflas" Maurício,data/Photos/Blica/img1.jpg
+Pedro "Lincoln" Neves,Bandolim,Luís "Pixão" Louro,data/Photos/Lincoln/img1.jpg
+Gabriel "Abaoui" Lopes,Acordeão,Márcio "Salsichonga" Nóbrega,data/Photos/Abaoui/img1.jpg
+Tiago "Burralheira" Antunes,Pandeireta,Vasco "Véspera" da Câmara Pereira,data/Photos/Burralheira/img1.jpg
+Mário "Luigi" Mendes,Bandolim,Nuno "Chantiló" Gonçalves,data/Photos/Luigi/img1.jpg
+Hugo "Hugolina" Pires,Viola,Hugo "Sneh" Rosário,data/Photos/Hugolina/img1.jpg
+Luís "Gosma" Coelho,Viola,Rodrigo "Trincão" Pascoal,data/Photos/Gosma/img1.jpg
+José "Passarola Voadora" Correia de Sá,Pandeireta,Jorge "Cinderela" Gomes,data/Photos/Passarola Voadora/img1.jpg
+Tiago "Zé Maria" Lopes,Percussão,Nuno "Chantiló" Gonçalves,data/Photos/Zé Maria/img1.jpg
+Miguel "Couratos" Afonso,Pandeireta,Filipe "Pixote" Pereira,data/Photos/Couratos/img1.jpg
+Pedro "Gregório" Poceiro,Bandolim,Carlos "Macarena" Matrena,data/Photos/Gregório/img1.jpg
+Rodrigo "Catrapila" Dias,Pandeireta,Manuel "Doutor" Ferreira,data/Photos/Catrapila/img1.jpg
+Hugo "Sneh" Rosário,Percussão,Allen "Próstata" Vasconcelos,data/Photos/Sneh/img1.jpg
+Andomarc "Anorak" Miranda,Flauta Transversal,Rodrigo "Trincão" Pascoal,data/Photos/Anorak/img1.jpg
+Márcio "Salsichonga" Nóbrega,Acordeão,Filipe "Pixote" Pereira,data/Photos/Salsichonga/img1.jpg
+Vasco "Véspera" da Câmara Pereira,Pandeireta,"Super Mário" Mário Fernandes,data/Photos/Véspera/img1.jpg
+Nuno "Chantiló" Gonçalves,Viola,Filipe "Pixote" Pereira,data/Photos/Chantiló/img1.jpg
+Ricardo "Pipa-Na-Mócha" Caria,Cavaquinho,Manuel "Doutor" Ferreira,data/Photos/Pipa-Na-Mócha/img1.jpg
+Allen "Próstata" Vasconcelos,Viola,"Super Mário" Mário Fernandes,data/Photos/Próstata/img1.jpg
+Diogo "Vidrão" Carvalho,Contrabaixo,João "Joaninha" Matos,data/Photos/Vidrão/img1.jpg
+Pedro "Igor" Sousa,Viola,Ricardo "Cerveja Na Mijão" Silva,data/Photos/Igor/img1.jpg
+Ricardo "Cantiflas" Maurício,Cavaquinho,Rodrigo "Trincão" Pascoal,data/Photos/Cantiflas/img1.jpg
+Bruno "Petit" Mendes,Viola,Rodrigo "Trincão" Pascoal,data/Photos/Petit/img1.jpg
+Miguel "Mijão" Silvestre,Bandolim,Rodrigo "Trincão" Pascoal,data/Photos/Mijão/img1.jpg
+Jorge Pinto "Da Costa",Cavaquinho,Rodrigo "Trincão" Pascoal,data/Photos/Da Costa/img1.jpg
+Carlos "Macarena" Matrena,Bandolim,Ricardo "Cerveja Na Mão" Silva,data/Photos/Macarena/img1.jpg
+Bruno "Magister" Almeida,Viola,Tiago "Caloiro" Móra,data/Photos/Magister/img1.jpg
+Alfredo "Açoreano" Almeida,Viola,Manuel "Doutor" Ferreira,data/Photos/Açoreano/img1.jpg
+Edgar "Caramelo" Cruz,Viola,Gonçalo "Anselmo" Lopes,data/Photos/Caramelo/img1.jpg
+Rodrigo "Trincão" Pascoal,Cavaquinho,Filipe "Pixote" Pereira,data/Photos/Trincão/img1.jpg
+Vasco "Becas" Móra,Bandolim,Bruno "Brazinha" Cardoso,data/Photos/Becas/img1.jpg
+José "Otto" Rino,Pandeireta,Manuel "Chaparro" Correia,data/Photos/Otto/img1.jpg
+Marco "Boca Fresca" Barroso,Viola,"Super Mário" Mário Fernandes,data/Photos/Boca Fresca/img1.jpg
+Jorge "Cinderela" Gomes,Percussão,Alexandre "Alex" Fernandes,data/Photos/Cinderela/img1.jpg
+Fernando "Estrumpfe" Carvalho,Viola,Filipe "Pixote" Pereira,data/Photos/Estrumpfe/img1.jpg
+Filipe "Pixote" Pereira,Viola,Gonçalo "Anselmo" Ribeiro,data/Photos/Pixote/img1.jpg
+Tiago "Caloiro" Móra,Viola,Bruno "Brazinha" Cardoso,data/Photos/Caloiro/img1.jpg
+Pedro "Coelhinho" Taveira,Estandarte,Manuel "Chaparro" Correia,data/Photos/Coelhinho/img1.jpg
+Alexandre "Alex" Fernandes,Contrabaixo,Fundador,data/Photos/Alex/img1.jpg
+"Super Mário" Mário Fernandes,Outro,Fundador,data/Photos/Super Mário/img1.jpg
+Pedro "Sazinho" Sá,Pandeireta,Fundador,data/Photos/Sazinho/img1.jpg
+Aires "Gordão" Noronha,Outro,Fundador,data/Photos/Gordão/img1.jpg
+Bruno "Brazinha" Cardoso,Bandolim,Fundador,data/Photos/Brazinha/img1.jpg
+Emanuel "Spac" Moreira,Acordeão,Fundador,data/Photos/Spac/img1.jpg
+Gonçalo "Bruce" Loff Sérgio,Bandolim,Fundador,data/Photos/Bruce/img1.jpg
+Tiago "El Zongo" Montes,Outro,Fundador,data/Photos/El Zongo/img1.jpg
+João "Djoni" Carvalho,Outro,Fundador,data/Photos/Djoni/img1.jpg
+João "Égue de Golha" Pina,Viola,Fundador,data/Photos/Égue de Golha/img1.jpg
+Jorge "Meistre" Semião,Cavaquinho,Fundador,data/Photos/Meistre/img1.jpg
+Manuel "Chaparro" Correia,Pandeireta,Fundador,data/Photos/Chaparro/img1.jpg
+Manuel "Doutor" Ferreira,Cavaquinho,Fundador,data/Photos/Doutor/img1.jpg
+Miguel "Pato" Monteiro,Bandolim,Fundador,data/Photos/Pato/img1.jpg
+Basilio "Flautista" Brito,Flauta Transversal,Fundador,data/Photos/Flautista/img1.jpg
+Manuel "Alfa" Novais,Acordeão,Fundador,data/Photos/Alfa/img1.jpg
+Luís "Stable" Faustino,Bandolim,Fundador,data/Photos/Stable/img1.jpg
+Sérgio "Fivel" Calado,Viola,Fundador,data/Photos/Fivel/img1.jpg
+Nuno Almeida,Viola,Fundador,data/Photos/Nuno Almeida/img1.jpg
+Gonçalo "Anselmo" Ribeiro,Viola,Miguel "Pato" Monteiro,data/Photos/Anselmo/img1.jpg
+Nuno "Ambrósio" Ferreira,Viola,"Super Mário" Mário Fernandes,data/Photos/Ambrósio/img1.jpg
+José "Pepe" Pauleta,Outro,João "Égue de Golha" Pina,data/Photos/Pepe/img1.jpg
+Luís "Suénéfuéné" Piedade,Acordeão,"Super Mário" Mário Fernandes,data/Photos/Suénéfuéné/img1.jpg
+Jorge "Gogui" Costa,Percussão,"Super Mário" Mário Fernandes,data/Photos/Gogui/img1.jpg
+Nuno "Wally" Godinho,Viola,Miguel "Pato" Monteiro,data/Photos/Wally/img1.jpg
+Paulo "Rauf" Ferro,Viola,"Super Mário" Mário Fernandes,data/Photos/Rauf/img1.jpg
+João "Joaninha" Matos,Outro,"Super Mário" Mário Fernandes,data/Photos/Joaninha/img1.jpg
+Ricardo "Cerveja Na Mão" Silva,Percussão,Bruno "Brazinha" Cardoso,data/Photos/Cerveja Na Mão/img1.jpg
+Carlos "Marmita" Simões,Viola,Gonçalo "Anselmo" Ribeiro,data/Photos/Marmita/img1.jpg
+Filipe "Nalga" Gonçalves,Bandolim,Filipe "Pixote" Pereira,data/Photos/Nalga/img1.jpg
+Luís "Pixão" Louro,Outro,Gonçalo "Anselmo" Ribeiro,data/Photos/Pixão/img1.jpg
+Joaquim "Ejacolino" Cardeira,Viola,João "Égue de Golha" Pina,data/Photos/Ejacolino/img1.jpg
+Basílio "Lello" Rocha,Viola,Bruno "Petit" Mendes,data/Photos/Lello/img1.jpg
+Nuno "Scotch" Brites,Outro,Andomarc "Anorak" Miranda,data/Photos/Scotch/img1.jpg
+David "Retornado" Fonseca,Viola,Luís "Gosma" Coelho,data/Photos/Retornado/img1.jpg
+David "Broxli" Baptista,Bandolim,Filipe "Nalga" Gonçalves,data/Photos/Broxli/img1.jpg
+Rui "Playmobil" Mestre,Bandolim,Carlos "Macarena" Matrena,data/Photos/Playmobil/img1.jpg
+Artur "Bodiesel" Ferreira,Cavaquinho,Luís "Pixão" Louro,data/Photos/Bodiesel/img1.jpg
+Pedro "Algália" Monteiro,Contrabaixo,Luís "Gosma" Coelho,data/Photos/Algália/img1.jpg
