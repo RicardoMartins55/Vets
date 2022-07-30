@@ -5,10 +5,10 @@ block_cipher = None
 
 
 a = Analysis(
-    ['app.spec'],
+    ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('data', 'data')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -26,7 +26,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='app',
+    name='WhoIsThatVeterano',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -37,6 +37,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon='logotipo.ico'
 )
 coll = COLLECT(
     exe,
@@ -46,5 +47,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='app',
+    name='WhoIsThatVeterano',
 )
