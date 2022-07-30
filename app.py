@@ -1,5 +1,6 @@
 
 import random
+import os
 import tkinter as tk
 import tkinter.font as font
 from PIL import ImageTk, Image
@@ -55,9 +56,6 @@ def clean_window(vets):
     iteration(vets)
 
 def createNameQuizLayout(vet, vets, full):
-    window.title("Who is that Veterano?")
-    window.configure(width=window.winfo_screenwidth(), height=window.winfo_screenheight(), bg='#222426')
-
     myFont = font.Font(family='Chaparral Pro', size=14, weight='bold')
 
     frame1 = tk.Frame(window, width=1200, height=600, bg="#222426")
@@ -103,29 +101,31 @@ def createNameQuizLayout(vet, vets, full):
     random.shuffle(vets)
     correct = ""
 
-
-
     option1 = tk.Button(top_left_option,text=vets[0],
                         font=myFont, wraplength=350, justify='center',
-                        width=100, height=100, bd=0, bg='#424649', fg="white")
+                        width=100, height=100, bd=0, bg='#424649', fg="white",
+                        borderwidth=10)
     option1.pack()
     if option1.cget('text') == vet.getNome(): correct = option1
 
     option2 = tk.Button(top_right_option, text=vets[1],
                         font=myFont, wraplength=350, justify='center',
-                        width=100, height=100,  bd=0,bg="#424649", fg="white")
+                        width=100, height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
     option2.pack()
     if option2.cget('text') == vet.getNome(): correct = option2
 
     option3 = tk.Button(bottom_left_option,text=vets[2], 
                         font=myFont, wraplength=350, justify='center',
-                        width=100,height=100,  bd=0,bg="#424649", fg="white")
+                        width=100,height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
     option3.pack()
     if option3.cget('text') == vet.getNome(): correct = option3
 
     option4 = tk.Button(bottom_right_option, text=vets[3],
                         font=myFont, wraplength=350, justify='center', 
-                        width=100,height=100, bd=0, bg="#424649", fg="white")
+                        width=100,height=100, bd=0, bg="#424649", fg="white",
+                        borderwidth=10)
     option4.pack()
     if option4.cget('text') == vet.getNome(): correct = option4
 
@@ -162,10 +162,103 @@ def iteration(vets):
     
     createNameQuizLayout(v, options, vets)
 
+def initialScreen(vets):
+    myFont = font.Font(family='Chaparral Pro', size=14, weight='bold')
+    logo = tk.Frame(window, width=250, height=250)
+    logo.pack()
+    logo.place(anchor='n', relx=0.5, rely=0.02)
+
+    image_path=os.path.join(base_folder, 'data/logo.png')
+    image = Image.open(image_path)
+    imwidth = int(logo.winfo_reqheight()*(image.width/image.height))
+    image = image.resize((imwidth,logo.winfo_reqheight()))
+    img = ImageTk.PhotoImage(image)
+
+    label = tk.Label(logo, image = img,borderwidth=0, highlightthickness=0 )
+    label.image=img
+    label.pack_propagate(False)
+    label.pack()
+
+    options = tk.Frame(window, width=320, height=700, bg="#222426")
+    options.pack()
+    options.place(anchor='n', relx=0.5, rely=0.27)
+
+    options.grid_propagate(False)
+    options.grid_columnconfigure(0, weight = 1)
+    options.grid_rowconfigure(0, weight = 1)
+    options.grid_rowconfigure(1, weight = 1)
+    options.grid_rowconfigure(2, weight = 1)
+    options.grid_rowconfigure(3, weight = 1)
+    options.grid_rowconfigure(4, weight = 1)
+    options.grid_rowconfigure(5, weight = 1)
+
+    first_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    first_option.grid(column=0, row=0)
+    first_option.pack_propagate(False)
+
+    second_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    second_option.grid(column=0, row=1)
+    second_option.pack_propagate(False)
+
+    third_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    third_option.grid(column=0, row=2)
+    third_option.pack_propagate(False)
+
+    fourth_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    fourth_option.grid(column=0, row=3)
+    fourth_option.pack_propagate(False)
+
+    fifth_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    fifth_option.grid(column=0, row=4)
+    fifth_option.pack_propagate(False)
+
+    sixth_option = tk.Frame(options,width=380, height=90, bg="#222426")
+    sixth_option.grid(column=0, row=5)
+    sixth_option.pack_propagate(False)
+
+    option1 = tk.Button(first_option,text="NOMES E ALCUNHAS",
+                        font=myFont, wraplength=350, justify='center',
+                        width=100, height=100, bd=0, bg='#424649', fg="white",
+                        borderwidth=10)
+    option1.pack()
+    option2 = tk.Button(second_option, text="Coming Soon...",
+                        font=myFont, wraplength=350, justify='center',
+                        width=100, height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
+    option2.pack()
+    option3 = tk.Button(third_option,text="Coming Soon...", 
+                        font=myFont, wraplength=350, justify='center',
+                        width=100,height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
+    option3.pack()
+    option4 = tk.Button(fourth_option, text="Coming Soon...",
+                        font=myFont, wraplength=350, justify='center', 
+                        width=100,height=100, bd=0, bg="#424649", fg="white",
+                        borderwidth=10)
+    option4.pack()
+    option5 = tk.Button(fifth_option,text="Coming Soon...", 
+                        font=myFont, wraplength=350, justify='center',
+                        width=100,height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
+    option5.pack()
+    option6 = tk.Button(sixth_option, text="Coming Soon...",
+                        font=myFont, wraplength=350, justify='center', 
+                        width=100,height=100, bd=0, bg="#424649", fg="white",
+                        borderwidth=10)
+    option6.pack()
+
+    option1.bind('<ButtonRelease>', lambda event, a=vets: clean_window(a))
+
+
 vets = importVeteranos()
+base_folder = os.path.dirname(__file__)
 
 window = tk.Tk()
+window.title("Who is that Veterano?")
+window.configure(width=window.winfo_screenwidth(), height=window.winfo_screenheight(), bg='#222426')
 
-iteration(vets)
+initialScreen(vets)
+
+#iteration(vets)
 
 window.mainloop()
