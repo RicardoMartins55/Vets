@@ -314,7 +314,7 @@ def iterationName(vets):
     createNameQuizLayout(v, options, vets)
 
 def initialScreen(vets):
-    myFont = font.Font(family='Chaparral Pro', size=14, weight='bold')
+    myFont = font.Font(family='Chaparral Pro', size=18, weight='bold')
     logo = tk.Frame(window, width=250, height=250)
     logo.pack()
     logo.place(anchor='n', relx=0.5, rely=0.02)

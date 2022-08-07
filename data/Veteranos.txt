@@ -46,7 +46,7 @@ Miguel "Narso" Lourenço,Cavaquinho,João "Pastilhas" Sousa,data/Photos/Narso/im
 Pedro "Jonas" Flores,Percussão,Bruno "Petit" Mendes,data/Photos/Jonas/img1.jpg
 José Pedro "Donaltim" Leite,Cavaquinho,David "Broxli" Baptista,data/Photos/Donaltim/img1.jpg
 Pedro "Scaramanga" Chagas,Viola,Michel "Manda-Chuva" Cânovas,data/Photos/Scaramanga/img1.jpg
-João "Jacki" Velez,Percussão,Pedro "Algália" Monteiro,data/Photos/Jacki/img1.jpg
+João "Jacki" Velez,Pandeireta,Pedro "Algália" Monteiro,data/Photos/Jacki/img1.jpg
 Juvenal "João" Araújo,Contrabaixo,Pedro "Algália" Monteiro,data/Photos/João/img1.jpg
 Luís "Estique-la-Piçe" Martins,Viola,Michel "Manda-Chuva" Cânovas,data/Photos/Estique-la-Piçe/img1.jpg
 André "Flori" Belo,Acordeão,Vasco "Véspera" da Câmara Pereira,data/Photos/Flori/img1.jpg
