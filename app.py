@@ -41,15 +41,7 @@ def importVeteranos():
     return vets  
 
 
-def checkNameAnswer(button, correct, options):
-    if button.cget('text') != correct.cget('text'):
-        button.configure(bg='#ff0000', activeforeground='#ffffff', activebackground='#ff0000')
-    correct.configure(bg='#00ff00',  activeforeground='#ffffff', activebackground='#00ff00')
-
-    for o in options:    
-        o.unbind('<ButtonRelease>')
-
-def checkInstrumentoAnswer(button, correct, options):
+def checkAnswer(button, correct, options):
     if button.cget('text') != correct.cget('text'):
         button.configure(bg='#ff0000', activeforeground='#ffffff', activebackground='#ff0000')
     correct.configure(bg='#00ff00',  activeforeground='#ffffff', activebackground='#00ff00')
@@ -64,6 +56,10 @@ def nextWindowNameQuiz(vets):
 def nextWindowInstrumentoQuiz(vets):
     clean_window()
     iterationInstrument(vets)
+
+def nextWindowPadrinhoQuiz(vets):
+    clean_window()
+    iterationPadrinho(vets)
 
 def clean_window():
     for widgets in window.winfo_children():
@@ -156,10 +152,10 @@ def createNameQuizLayout(vet, vets, full):
 
     options_list = [option1, option2, option3, option4]
 
-    option1.bind('<ButtonRelease>', lambda event, a=option1, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option2.bind('<ButtonRelease>', lambda event, a=option2, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option3.bind('<ButtonRelease>', lambda event, a=option3, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option4.bind('<ButtonRelease>', lambda event, a=option4, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
+    option1.bind('<ButtonRelease>', lambda event, a=option1, b=correct, c=options_list: checkAnswer(a, b, c))
+    option2.bind('<ButtonRelease>', lambda event, a=option2, b=correct, c=options_list: checkAnswer(a, b, c))
+    option3.bind('<ButtonRelease>', lambda event, a=option3, b=correct, c=options_list: checkAnswer(a, b, c))
+    option4.bind('<ButtonRelease>', lambda event, a=option4, b=correct, c=options_list: checkAnswer(a, b, c))
     next_button.bind('<ButtonRelease>', lambda event, a=full: nextWindowNameQuiz(a))
     menu_button.bind('<ButtonRelease>', lambda event, a=full: backToHome(a))
 
@@ -266,10 +262,10 @@ def createInstrumentQuizLayout(vet, instruments, full):
 
     options_list = [option1, option2, option3, option4]
 
-    option1.bind('<ButtonRelease>', lambda event, a=option1, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option2.bind('<ButtonRelease>', lambda event, a=option2, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option3.bind('<ButtonRelease>', lambda event, a=option3, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
-    option4.bind('<ButtonRelease>', lambda event, a=option4, b=correct, c=options_list: checkInstrumentoAnswer(a, b, c))
+    option1.bind('<ButtonRelease>', lambda event, a=option1, b=correct, c=options_list: checkAnswer(a, b, c))
+    option2.bind('<ButtonRelease>', lambda event, a=option2, b=correct, c=options_list: checkAnswer(a, b, c))
+    option3.bind('<ButtonRelease>', lambda event, a=option3, b=correct, c=options_list: checkAnswer(a, b, c))
+    option4.bind('<ButtonRelease>', lambda event, a=option4, b=correct, c=options_list: checkAnswer(a, b, c))
     next_button.bind('<ButtonRelease>', lambda event, a=full: nextWindowInstrumentoQuiz(a))
     menu_button.bind('<ButtonRelease>', lambda event, a=full: backToHome(a))
 
@@ -284,6 +280,130 @@ def createInstrumentQuizLayout(vet, instruments, full):
     label.image=img
     label.pack_propagate(False)
     label.pack()
+
+def createPadrinhoQuizLayout(vet, vets, full):
+    myFont = font.Font(family='Chaparral Pro', size=int(0.009*window.winfo_screenwidth()), weight='bold')
+
+    frame1 = tk.Frame(window, width=0.625*window.winfo_screenwidth(), height=0.556*window.winfo_screenheight(), bg="#222426")
+    frame1.pack()
+    frame1.place(anchor='s', relx=0.5, rely=0.63)
+
+    next_button_frame = tk.Frame(window, width=0.078*window.winfo_screenwidth(), height=0.167*window.winfo_screenheight(),  bd=0)
+    next_button_frame.place(anchor='s', relx=0.77, rely=0.888)
+    next_button_frame.pack_propagate(False)
+
+    next_font=font.Font(family='Chaparral Pro',weight='bold',size=int(0.015*window.winfo_screenwidth()))
+    next_button = tk.Button(next_button_frame, text='➔\nNEXT', font=next_font, width=100, height=100, wraplength=130, bg='#424649', fg="white", borderwidth=5)
+    next_button.pack()
+
+    menu_button_frame = tk.Frame(window, width=0.078*window.winfo_screenwidth(), height=0.102*window.winfo_screenheight(), bd=0)
+    menu_button_frame.place(anchor='s', relx=0.05, rely=0.12)
+    menu_button_frame.pack_propagate(False)
+
+    menu_font=font.Font(family='Chaparral Pro', size=int(0.013*window.winfo_screenwidth()),weight='bold')
+    menu_button = tk.Button(menu_button_frame, text='◄\nMENU', font=menu_font, width=100, height=100, wraplength=130, bg='#424649', fg="white", borderwidth=5)
+    menu_button.pack()
+
+    nome_frame = tk.Frame(window, width=0.4170*window.winfo_screenwidth(), height=0.074*window.winfo_screenheight(), bg='#222426')
+    nome_frame.place(anchor='s', relx=0.5, rely=0.72)
+    nome_frame.pack_propagate(False)
+
+    nome_font=font.Font(family='Chaparral Pro',weight='bold',size=int(0.015*window.winfo_screenwidth()))
+    nome = tk.Label(nome_frame, text=vet.getNome(), font=nome_font, justify='center', padx=0.5, pady=0.5, fg='white', bg='#222426')
+    nome.pack()
+
+    
+    options = tk.Frame(window, width=0.417*window.winfo_screenwidth(), height=0.185*window.winfo_screenheight(), bg='#222426')
+    options.pack()
+    options.place(anchor='s', relx=0.5, rely=0.9)
+
+    options.grid_propagate(False)
+    options.grid_columnconfigure(0, weight = 1)
+    options.grid_columnconfigure(1, weight = 1)
+    options.grid_rowconfigure(0, weight = 1)
+    options.grid_rowconfigure(1, weight = 1)
+
+    top_left_option = tk.Frame(options,width=0.198*window.winfo_screenwidth(), height=0.083*window.winfo_screenheight(), bg="#222426")
+    top_left_option.grid(column=0, row=0)
+    top_left_option.pack_propagate(False)
+
+    top_right_option = tk.Frame(options,width=0.198*window.winfo_screenwidth(), height=0.083*window.winfo_screenheight(), bg="#222426")
+    top_right_option.grid(column=1, row=0)
+    top_right_option.pack_propagate(False)
+
+    bottom_left_option = tk.Frame(options,width=0.198*window.winfo_screenwidth(), height=0.083*window.winfo_screenheight(), bg="#222426")
+    bottom_left_option.grid(column=0, row=1)
+    bottom_left_option.pack_propagate(False)
+
+    bottom_right_option = tk.Frame(options,width=0.198*window.winfo_screenwidth(), height=0.083*window.winfo_screenheight(), bg="#222426")
+    bottom_right_option.grid(column=1, row=1)
+    bottom_right_option.pack_propagate(False)
+
+    random.shuffle(vets)
+    correct = ""
+
+    option1 = tk.Button(top_left_option,text=vets[0],
+                        font=myFont, wraplength=350, justify='center',
+                        width=100, height=100, bd=0, bg='#424649', fg="white",
+                        borderwidth=10)
+    option1.pack()
+    if option1.cget('text') == vet.getPadrinho(): correct = option1
+
+    option2 = tk.Button(top_right_option, text=vets[1],
+                        font=myFont, wraplength=350, justify='center',
+                        width=100, height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
+    option2.pack()
+    if option2.cget('text') == vet.getPadrinho(): correct = option2
+
+    option3 = tk.Button(bottom_left_option,text=vets[2], 
+                        font=myFont, wraplength=350, justify='center',
+                        width=100,height=100,  bd=0,bg="#424649", fg="white",
+                        borderwidth=10)
+    option3.pack()
+    if option3.cget('text') == vet.getPadrinho(): correct = option3
+
+    option4 = tk.Button(bottom_right_option, text=vets[3],
+                        font=myFont, wraplength=350, justify='center', 
+                        width=100,height=100, bd=0, bg="#424649", fg="white",
+                        borderwidth=10)
+    option4.pack()
+    if option4.cget('text') == vet.getPadrinho(): correct = option4
+
+    options_list = [option1, option2, option3, option4]
+
+    option1.bind('<ButtonRelease>', lambda event, a=option1, b=correct, c=options_list: checkAnswer(a, b, c))
+    option2.bind('<ButtonRelease>', lambda event, a=option2, b=correct, c=options_list: checkAnswer(a, b, c))
+    option3.bind('<ButtonRelease>', lambda event, a=option3, b=correct, c=options_list: checkAnswer(a, b, c))
+    option4.bind('<ButtonRelease>', lambda event, a=option4, b=correct, c=options_list: checkAnswer(a, b, c))
+    next_button.bind('<ButtonRelease>', lambda event, a=full: nextWindowPadrinhoQuiz(a))
+    menu_button.bind('<ButtonRelease>', lambda event, a=full: backToHome(a))
+
+    image = Image.open(vet.getFotos()[0])
+
+    imwidth = int(frame1.winfo_reqheight()*(image.width/image.height))
+    image = image.resize((imwidth,frame1.winfo_reqheight()))
+
+    img = ImageTk.PhotoImage(image)
+
+    label = tk.Label(frame1, image = img)
+    label.image=img
+    label.pack_propagate(False)
+    label.pack()
+
+def iterationPadrinho(vets):
+    options = []
+    v = random.choice(vets)
+    options.append(v.getPadrinho())
+    i = 1
+    while i < 4:
+        temp = random.choice(vets)
+        if temp.getPadrinho() not in options:
+            if temp.getPadrinho() != v.getNome():
+                options.append(temp.getPadrinho())
+                i += 1
+    
+    createPadrinhoQuizLayout(v, options, vets)
 
 def iterationInstrument(vets):
     instruments = ["Outro", "Viola", "Pandeireta", "Bandolim", "Cavaquinho", "Percussão", "Acordeão", "Violino", "Contrabaixo", "Flauta Transversal"]
@@ -376,7 +496,7 @@ def initialScreen(vets):
                         width=100, height=100,  bd=0,bg="#424649", fg="white",
                         borderwidth=10)
     option2.pack()
-    option3 = tk.Button(third_option,text="Coming Soon...", 
+    option3 = tk.Button(third_option,text="PADRINHOS", 
                         font=myFont, wraplength=0.198*window.winfo_screenwidth(), justify='center',
                         width=100,height=100,  bd=0,bg="#424649", fg="white",
                         borderwidth=10)
@@ -399,6 +519,7 @@ def initialScreen(vets):
 
     option1.bind('<ButtonRelease>', lambda event, a=vets: nextWindowNameQuiz(a))
     option2.bind('<ButtonRelease>', lambda event, a=vets: nextWindowInstrumentoQuiz(a))
+    option3.bind('<ButtonRelease>', lambda event, a=vets: nextWindowPadrinhoQuiz(a))
 
 
 vets = importVeteranos()
@@ -407,7 +528,7 @@ base_folder = os.path.dirname(__file__)
 window = tk.Tk()
 window.title("Who is that Veterano?")
 window.configure(width=window.winfo_screenwidth(), height=window.winfo_screenheight(), bg='#222426')
-print(window.winfo_screenwidth(), window.winfo_screenheight())
+
 initialScreen(vets)
 
 window.mainloop()
